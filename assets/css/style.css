@@ -1,0 +1,91 @@
+.main-content{
+	width: 80%;
+	height: 100%;
+	left: 10%;
+	position: relative;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	overflow-x: hidden;
+}
+
+header{
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	height: 200px;
+}
+
+.page-name{
+	position: absolute;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	width: auto;
+	top: 90px;
+	margin-left: 100px;
+}
+
+.page-name-first{
+	font-size: 70px;
+}
+
+.page-name-second{
+	font-size: 70px;
+}
+
+p{
+	display: inline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px; 
+    border: 2px solid #333;   
+    text-decoration: none;
+}
+
+li a:hover{
+	border-bottom: 2px solid white;
+}
+
+#information-content{
+	border: 2px solid green;
+}
+
+.draggable{
+	height: 250px;
+	background-color: cyan;
+	border: 1px solid grey;
+
+	border-radius: 15px;
+
+	padding: 15px;
+	left: 5%;
+	width: 90%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.draggable:hover{
+	box-shadow: 0 1px 7px 2px rgba(0, 0, 0, 0.3);
+}
+
+.draggable:active{
+	box-shadow: 0 1px 9px 3px rgba(0, 0, 0, 0.3);
+	border: 1.2px solid grey;
+}
